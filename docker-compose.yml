@@ -1,0 +1,10 @@
+services:
+  portfolio-client:
+    container_name: Portfolio.Client
+    build:
+      context: ./forntend/portfolio-client/
+      dockerfile: Dockerfile
+    environment:
+      - NODE_ENV=production
+    ports:
+      - 7150:7150
