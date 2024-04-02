@@ -98,13 +98,13 @@ export const HeroCards = () => {
                 <CardFooter className="flex">
                     <div className="space-y-4">
                         {["Docker", "NGINX", ".NET Core", "React.js", "AWS", "Azure", "Redis and more"].map(
-                            (benefit: string) => (
+                            (skills: string) => (
                                 <span
-                                    key={benefit}
+                                    key={skills}
                                     className="flex"
                                 >
                                     <Check className="text-green-500" />{" "}
-                                    <h3 className="ml-2">{benefit}</h3>
+                                    <h3 className="ml-2">{skills}</h3>
                                 </span>
                             )
                         )}
