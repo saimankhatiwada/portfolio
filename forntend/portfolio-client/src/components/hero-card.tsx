@@ -10,6 +10,7 @@ import {
 } from "@/components/ui/card";
 import { Check, Linkedin } from "lucide-react";
 import profile from "@/assets/profile.jpg";
+import { Link } from "react-router-dom";
 
 export const HeroCards = () => {
     return (
@@ -36,8 +37,8 @@ export const HeroCards = () => {
 
                 <CardFooter>
                     <div>
-                        <a
-                            href="https://github.com/saimankhatiwada"
+                        <Link
+                            to="https://github.com/saimankhatiwada"
                             target="_blank"
                             className={buttonVariants({
                                 variant: "ghost",
@@ -46,9 +47,9 @@ export const HeroCards = () => {
                         >
                             <span className="sr-only">Github icon</span>
                             <GitHubLogoIcon className="w-5 h-5" />
-                        </a>
-                        <a
-                            href="https://twitter.com/saimankhatiwad1"
+                        </Link>
+                        <Link
+                            to="https://twitter.com/saimankhatiwad1"
                             target="_blank"
                             className={buttonVariants({
                                 variant: "ghost",
@@ -65,10 +66,10 @@ export const HeroCards = () => {
                                 <title>X</title>
                                 <path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z" />
                             </svg>
-                        </a>
+                        </Link>
 
-                        <a
-                            href="https://www.linkedin.com/in/saiman-khatiwada-a07346163/"
+                        <Link
+                            to="https://www.linkedin.com/in/saiman-khatiwada-a07346163/"
                             target="_blank"
                             className={buttonVariants({
                                 variant: "ghost",
@@ -77,7 +78,7 @@ export const HeroCards = () => {
                         >
                             <span className="sr-only">Linkedin icon</span>
                             <Linkedin size="20" />
-                        </a>
+                        </Link>
                     </div>
                 </CardFooter>
             </Card>

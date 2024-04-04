@@ -1,12 +1,11 @@
+import { Announcement } from "./announcement";
 import { HeroCards } from "./hero-card";
 
 export const Hero = () => {
     return (
         <>
-            <div className="flex items-center justify-center text-center">
-                <h1 className="h-10 p-2 dark:bg-green-800 bg-blue-800 text-white w-full font-semibold tracking-tight">
-                    Under Development: Portfolio Website Upgrades
-                </h1>
+            <div className="flex items-center justify-center text-center mt-5">
+                <Announcement />
             </div>
             <section className="container grid lg:grid-cols-2 place-items-center py-20 md:py-32 gap-10">
                 <div className="text-center lg:text-start space-y-6">

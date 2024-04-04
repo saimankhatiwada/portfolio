@@ -1,4 +1,5 @@
 import { cn } from "@/lib/utils"
+import { Link } from "react-router-dom";
 
 export const MainNav = ({
     className,
@@ -9,30 +10,30 @@ export const MainNav = ({
             className={cn("flex items-center space-x-4 lg:space-x-6", className)}
             {...props}
         >
-            <a
-                href="/"
+            <Link
+                to="/"
                 className="text-sm font-medium transition-colors hover:text-primary"
             >
                 Home
-            </a>
-            <a
-                href="/projects"
+            </Link>
+            <Link
+                to="/projects"
                 className="text-sm font-medium text-muted-foreground transition-colors hover:text-primary"
             >
                 Projects
-            </a>
-            <a
-                href="/blogs"
+            </Link>
+            <Link
+                to="/blogs"
                 className="text-sm font-medium text-muted-foreground transition-colors hover:text-primary"
             >
                 Blogs
-            </a>
-            <a
-                href="/contact"
+            </Link>
+            <Link
+                to="/contact"
                 className="text-sm font-medium text-muted-foreground transition-colors hover:text-primary"
             >
                 Contact
-            </a>
+            </Link>
         </nav>
     );
 }
