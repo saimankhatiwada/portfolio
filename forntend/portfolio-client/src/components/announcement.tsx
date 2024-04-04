@@ -6,8 +6,8 @@ export const Announcement = () => {
         <div className="inline-flex items-center rounded-lg bg-muted px-3 py-1 text-sm font-medium">
             <Wrench className="h-4 w-4" /> 
             <Separator className="mx-2 h-4" orientation="vertical" />{" "}
-            <span className="sm:hidden">Under Development: Portfolio Website Upgrades</span>
-            <span className="hidden sm:inline">Under Development: Portfolio Website Upgrades</span>
+            <span className="sm:hidden">Under Development</span>
+            <span className="hidden sm:inline">Under Development</span>
         </div>
     );
 }
