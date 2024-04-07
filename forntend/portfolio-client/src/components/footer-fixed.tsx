@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export const FooterFixed = () => {
     return (
-        <footer className="fixed bottom-0 z-0 w-full">
+        <footer className="lg:fixed bottom-0 z-0 w-full">
 
             <hr className="w-11/12 mx-auto" />
 
