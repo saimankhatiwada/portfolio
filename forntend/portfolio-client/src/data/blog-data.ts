@@ -7,6 +7,6 @@ export const BlogData: BlogModel[] = [
         tittle: "Correct Way To Write LINQ Querries",
         image_url: blog1,
         read_time: 3,
-        published: new Date(2024, 4, 7)
+        published: new Date(2024, 3, 7)
     }
 ]
